@@ -220,4 +220,28 @@ main{
     top: -20rem;
     left: -10rem;
  }
-  
+  /* game part */
+
+  .gm-sec{
+    padding:100px;
+    background-color: #FFF;
+  }
+  .gm-tp{
+    display:flex;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:25px;
+  }
+  .gn-tps{
+    display: flex;
+    gap:24px;
+    padding: 9px;
+    width:260px;
+    font:bold;
+  }
+  .gn-tps:hover{
+    border: 2.5px solid #FF42A5;
+    color: #FF42A5;
+    cursor: pointer;
+  }
