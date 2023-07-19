@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 50px 240px;
+}
+.nav, 
+.gm{
+    display: flex;
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+.gm img{
+    width: 86.041px;
+    height: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+
+}
+.youtube-tiktok{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+    padding: 10px 10px;
+}
+.game
+{
+    color: #FF42A5;
+}
