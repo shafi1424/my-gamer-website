@@ -245,3 +245,74 @@ main{
     color: #FF42A5;
     cursor: pointer;
   }
+
+  /* footer */
+
+  footer{
+    background-color: #0B0223;
+}
+
+  footer .fot-mark{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+footer .fot-mark .title{
+    color: #FFF;
+}
+
+footer .uper-class ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+footer .uper-class ul li{
+    list-style: none;
+}
+.game1{
+    color: #FFF;
+}
+footer .uper-class ul{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.icon img{
+    width: 2rem;
+    height: 2rem;
+}
+footer .lowest ul{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+footer .lowest ul li{
+    list-style: none;
+}
+footer .lowest ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.all-right{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+}
