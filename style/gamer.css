@@ -60,14 +60,13 @@ nav li a{
 /* main item */
 
 main{
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
     margin-top: 15px;
 }
 .container{
     display: flex;
     justify-content: space-between;
-    margin-right: 20px;
 }
 
 .container-title{
@@ -149,5 +148,76 @@ main{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 5px;
 }
+.item2-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.my-pic
+{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    position: relative;
 
+}
+.my-pic .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #fff9f9;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .my-pic .btn:hover {
+    background-color: black;
+  }
+
+  .feature{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .section-title{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  .fe-con{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .feature-para{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .feature-img{
+    height: 650px;
+    border-radius: 8px;
+  }
+ .badge{
+    position: relative;
+    /* bottom: 300px; */
+    /* margin-right: 90px; */
+    top: -20rem;
+    left: -10rem;
+ }
+  
