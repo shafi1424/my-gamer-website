@@ -38,6 +38,7 @@ nav li{
     margin-right: 30px;
     font-size: 18px;
     font-weight: 500;
+    align-items: center;
 
 }
 nav li a{
@@ -46,11 +47,12 @@ nav li a{
 
 }
 .youtube-tiktok{
-    border-radius: 6px;
+    border-radius: 20px;
     background: rgba(11, 2, 35, 0.10);
     width: 262px;
-    height: 56px;
-    padding: 30px;
+    height: 35px;
+    padding: 20px;
+    text-align: center;
 }
 .game
 {
