@@ -66,24 +66,31 @@ main{
 }
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .container-title{
     color: #0B0223;
     text-align: center;
     font-size: 48px;
-    font-weight: 600px;
+    font-weight: 348px;
+    height: 56px;
+    
 }
 .container-item{
-    text-align: center;
-    font-size: 95px;
-    font-weight: 800px;
+    text-align: left;
+    font-size: 100px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-   
+    -webkit-text-fill-color: transparent;   
+}
+.container .container1{
+    position: absolute;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .para{
     color: #534C64;
@@ -118,13 +125,6 @@ main{
     font-weight: 600;
     cursor: pointer;
     
-}
-.container1{
-    position: absolute;
-    text-align: center;
-    padding-top: 100px;
-    padding-left: 180px;
-    padding-right: 150px;
 }
 .item2{
     text-align: center;
